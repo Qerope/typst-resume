@@ -6,7 +6,12 @@
 
 Software engineer.
 == Experience
-*Harbor Analytics* -- Software Engineer (2019 - 2023)
+#for job in experience [
+  *#job.company* -- #job.role #h(1fr) #job.when
+  #for b in job.bullets [
+    - #b
+  ]
+]
 
 == Education
 #education.school -- #education.degree #h(1fr) #education.when
