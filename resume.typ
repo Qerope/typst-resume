@@ -1,5 +1,5 @@
 #import "data.typ": *
-#set page(margin: 2cm)
+#set page(margin: (x: 1.6cm, y: 1.4cm))
 #set text(font: "New Computer Modern", size: 10pt)
 
 = #name
