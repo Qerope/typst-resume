@@ -2,6 +2,12 @@
 #set page(margin: (x: 1.6cm, y: 1.4cm))
 #set text(font: "New Computer Modern", size: 10pt)
 
+#show heading: it => [
+  #set text(size: 11pt)
+  #upper(it.body)
+  #line(length: 100%, stroke: 0.5pt)
+]
+
 = #name
 
 Software engineer.
