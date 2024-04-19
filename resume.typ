@@ -24,3 +24,8 @@ Software engineer.
 
 == Skills
 #skills.join(", ")
+
+== Projects
+#for p in projects [
+  - *#p.name* -- #p.text
+]

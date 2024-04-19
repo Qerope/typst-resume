@@ -24,3 +24,9 @@
 #let skills = (
   "Go", "Python", "Rust", "TypeScript", "Postgres", "Kubernetes", "Linux",
 )
+
+#let projects = (
+  (name: "tinyvm", text: "Stack VM with an assembler and disassembler, in C"),
+  (name: "nesemu", text: "NES emulator, 6502 core and PPU registers"),
+  (name: "asm6502", text: "Two-pass 6502 assembler in Go"),
+)
