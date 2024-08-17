@@ -5,6 +5,15 @@
 
 #let experience = (
   (
+    company: "Northwind Labs",
+    role: "Senior Software Engineer",
+    when: "2023 - present",
+    bullets: (
+      "Led the move of the ingestion pipeline from cron jobs to a queue based design; p99 latency dropped from minutes to seconds",
+      "Owned the on-call rotation tooling, cut pages per week by roughly half",
+    ),
+  ),
+  (
     company: "Harbor Analytics",
     role: "Software Engineer",
     when: "2019 - 2023",
