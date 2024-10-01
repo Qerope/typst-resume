@@ -1,6 +1,8 @@
 #let name = "Qerope"
 #let contact = (
   email: "preloopadm@gmail.com",
+  github: "github.com/qerope",
+  site: "qerope.dev",
 )
 
 #let experience = (

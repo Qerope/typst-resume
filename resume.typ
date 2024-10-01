@@ -9,6 +9,7 @@
 ]
 
 = #name
+#contact.email · #link("https://" + contact.github)[#contact.github] · #link("https://" + contact.site)[#contact.site]
 
 Software engineer.
 == Experience
