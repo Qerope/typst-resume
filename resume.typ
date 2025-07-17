@@ -10,8 +10,6 @@
 
 = #name
 #contact.email · #link("https://" + contact.github)[#contact.github] · #link("https://" + contact.site)[#contact.site]
-
-Software engineer.
 == Experience
 #for job in experience [
   *#job.company* -- #job.role #h(1fr) #job.when
