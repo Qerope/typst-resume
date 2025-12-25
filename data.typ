@@ -20,8 +20,9 @@
     role: "Software Engineer",
     when: "2019 - 2023",
     bullets: (
-      "Built the reporting service in Go and Postgres used by about 40 customers",
-      "Wrote the CI pipeline that took release time from half a day to under an hour",
+      "Built the reporting service in Go and Postgres, grew it from 5 to about 40 customers",
+      "Rewrote the CI pipeline: release time went from half a day to under an hour",
+      "Mentored two junior engineers through their first on-call rotations",
     ),
   ),
 )
