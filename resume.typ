@@ -9,7 +9,7 @@
 ]
 
 = #name
-#contact.email · #link("https://" + contact.github)[#contact.github] · #link("https://" + contact.site)[#contact.site]
+#text(hyphenate: false)[#contact.email · #link("https://" + contact.github)[#contact.github] · #link("https://" + contact.site)[#contact.site]]
 == Experience
 #for job in experience [
   *#job.company* -- #job.role #h(1fr) #job.when
